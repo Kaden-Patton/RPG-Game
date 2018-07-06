@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 20705705328407252}
   - component: {fileID: 124396413230560780}
   - component: {fileID: 81986578429406612}
+  - component: {fileID: 114229389327647480}
+  - component: {fileID: 114640080751529184}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -115,6 +117,19 @@ AudioListener:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1779952047545426}
   m_Enabled: 1
+--- !u!114 &114229389327647480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1779952047545426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2813f90d329772f4da4f953b1be42a80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerPriorities: 0900000008000000ffffffff
+  distanceToBackground: 100
 --- !u!114 &114243765573452814
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -124,6 +139,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51d40ce96cd9dc347b3b234352f2ee9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114640080751529184
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1779952047545426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67a6629f03e4c546aba958175d26a36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!124 &124396413230560780
