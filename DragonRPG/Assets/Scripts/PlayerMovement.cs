@@ -42,10 +42,12 @@ public class PlayerMovement : MonoBehaviour
                     return;
             }
 
-
             currentClickTarget = cameraRaycaster.hit.point; // So not set in default case   
+
         }
+
         var playerToClickPoint = currentClickTarget - transform.position;
+
         if(playerToClickPoint.magnitude >= walkMoveStopRadius)
         {
             m_Character.Move(playerToClickPoint, false, false);
@@ -54,6 +56,8 @@ public class PlayerMovement : MonoBehaviour
         {
             m_Character.Move(Vector3.zero, false, false);
         }
+
+
     }
 }
 
